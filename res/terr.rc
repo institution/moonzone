@@ -1,0 +1,2 @@
+sheet -1 max_sprites 1
+sprite 0 box 0 0 1 1 bea 0 0 dim 2048 128

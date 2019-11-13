@@ -1,0 +1,6 @@
+sheet _ max_sprites 1
+sprite 0 name "whippet" box 0 0 550 550 rbox 0.0 0.0 1.0 1.0
+
+
+Sheet(-1).max_sprites(1).sprite(0).box(0,0,550,550).rbox(0,0,1,1);
+

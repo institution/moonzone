@@ -1,0 +1,104 @@
+sheet _
+name "GeneraleMono-A"
+max_sprites 128
+height 29
+width 14
+asc 26
+des -1
+pad 2 0
+
+sprite 32 name " " box 0 1024 0 0 rbox 0 26 0 0 adv 21
+sprite 33 name "!" box 4 994 7 26 rbox 7 0 7 26 adv 21
+sprite 34 name "\"" box 15 1011 16 9 rbox 3 0 16 9 adv 21
+sprite 35 name "#" box 35 1002 18 18 rbox 2 4 18 18 adv 21
+sprite 36 name "$" box 57 994 18 26 rbox 2 0 18 26 adv 21
+sprite 37 name "%" box 79 994 18 26 rbox 2 0 18 26 adv 21
+sprite 38 name "&" box 101 994 16 26 rbox 2 0 16 26 adv 21
+sprite 39 name "'" box 121 1011 7 9 rbox 7 0 7 9 adv 21
+sprite 40 name "(" box 132 994 7 26 rbox 7 0 7 26 adv 21
+sprite 41 name ")" box 143 994 7 26 rbox 7 0 7 26 adv 21
+sprite 42 name "*" box 154 1006 14 14 rbox 4 0 14 14 adv 21
+sprite 43 name "+" box 172 1002 18 18 rbox 2 4 18 18 adv 21
+sprite 44 name "," box 194 1013 8 7 rbox 6 19 8 7 adv 21
+sprite 45 name "-" box 206 1015 14 5 rbox 4 11 14 5 adv 21
+sprite 46 name "." box 224 1013 7 7 rbox 7 19 7 7 adv 21
+sprite 47 name "/" box 235 994 14 26 rbox 4 0 14 26 adv 21
+sprite 48 name "0" box 253 994 18 26 rbox 2 0 18 26 adv 21
+sprite 49 name "1" box 275 994 18 26 rbox 2 0 18 26 adv 21
+sprite 50 name "2" box 297 994 18 26 rbox 2 0 18 26 adv 21
+sprite 51 name "3" box 319 994 18 26 rbox 2 0 18 26 adv 21
+sprite 52 name "4" box 341 994 18 26 rbox 2 0 18 26 adv 21
+sprite 53 name "5" box 363 994 18 26 rbox 2 0 18 26 adv 21
+sprite 54 name "6" box 385 994 18 26 rbox 2 0 18 26 adv 21
+sprite 55 name "7" box 407 994 18 26 rbox 2 0 18 26 adv 21
+sprite 56 name "8" box 429 994 18 26 rbox 2 0 18 26 adv 21
+sprite 57 name "9" box 451 994 18 26 rbox 2 0 18 26 adv 21
+sprite 58 name ":" box 473 1000 8 20 rbox 7 6 8 20 adv 21
+sprite 59 name ";" box 485 1000 9 20 rbox 6 6 9 20 adv 21
+sprite 60 name "<" box 498 998 18 22 rbox 2 2 18 22 adv 21
+sprite 61 name "=" box 520 1006 14 14 rbox 4 6 14 14 adv 21
+sprite 62 name ">" box 538 998 18 22 rbox 2 2 18 22 adv 21
+sprite 63 name "?" box 560 994 18 26 rbox 2 0 18 26 adv 21
+sprite 64 name "@" box 582 994 18 26 rbox 2 0 18 26 adv 21
+sprite 65 name "A" box 604 994 18 26 rbox 2 0 18 26 adv 21
+sprite 66 name "B" box 626 994 18 26 rbox 2 0 18 26 adv 21
+sprite 67 name "C" box 648 994 18 26 rbox 2 0 18 26 adv 21
+sprite 68 name "D" box 670 994 18 26 rbox 2 0 18 26 adv 21
+sprite 69 name "E" box 692 994 18 26 rbox 2 0 18 26 adv 21
+sprite 70 name "F" box 714 994 18 26 rbox 2 0 18 26 adv 21
+sprite 71 name "G" box 736 994 18 26 rbox 2 0 18 26 adv 21
+sprite 72 name "H" box 758 994 18 26 rbox 2 0 18 26 adv 21
+sprite 73 name "I" box 780 994 18 26 rbox 2 0 18 26 adv 21
+sprite 74 name "J" box 802 994 18 26 rbox 2 0 18 26 adv 21
+sprite 75 name "K" box 824 994 18 26 rbox 2 0 18 26 adv 21
+sprite 76 name "L" box 846 994 18 26 rbox 2 0 18 26 adv 21
+sprite 77 name "M" box 868 994 18 26 rbox 2 0 18 26 adv 21
+sprite 78 name "N" box 890 994 18 26 rbox 2 0 18 26 adv 21
+sprite 79 name "O" box 912 994 18 26 rbox 2 0 18 26 adv 21
+sprite 80 name "P" box 934 994 18 26 rbox 2 0 18 26 adv 21
+sprite 81 name "Q" box 956 994 18 26 rbox 2 0 18 26 adv 21
+sprite 82 name "R" box 978 994 18 26 rbox 2 0 18 26 adv 21
+sprite 83 name "S" box 1000 994 18 26 rbox 2 0 18 26 adv 21
+sprite 84 name "T" box 4 964 18 26 rbox 2 0 18 26 adv 21
+sprite 85 name "U" box 26 964 18 26 rbox 2 0 18 26 adv 21
+sprite 86 name "V" box 48 964 18 26 rbox 2 0 18 26 adv 21
+sprite 87 name "W" box 70 964 18 26 rbox 2 0 18 26 adv 21
+sprite 88 name "X" box 92 964 18 26 rbox 2 0 18 26 adv 21
+sprite 89 name "Y" box 114 964 18 26 rbox 2 0 18 26 adv 21
+sprite 90 name "Z" box 136 964 18 26 rbox 2 0 18 26 adv 21
+sprite 91 name "[" box 158 964 7 26 rbox 7 0 7 26 adv 21
+sprite 92 name "\\" box 169 964 14 26 rbox 4 0 14 26 adv 21
+sprite 93 name "]" box 187 964 7 26 rbox 7 0 7 26 adv 21
+sprite 94 name "^" box 198 985 18 5 rbox 2 0 18 5 adv 21
+sprite 95 name "_" box 220 985 18 5 rbox 2 21 18 5 adv 21
+sprite 96 name "`" box 242 985 11 5 rbox 2 0 11 5 adv 21
+sprite 97 name "a" box 257 964 18 26 rbox 2 0 18 26 adv 21
+sprite 98 name "b" box 279 964 18 26 rbox 2 0 18 26 adv 21
+sprite 99 name "c" box 301 964 18 26 rbox 2 0 18 26 adv 21
+sprite 100 name "d" box 323 964 18 26 rbox 2 0 18 26 adv 21
+sprite 101 name "e" box 345 964 18 26 rbox 2 0 18 26 adv 21
+sprite 102 name "f" box 367 964 18 26 rbox 2 0 18 26 adv 21
+sprite 103 name "g" box 389 964 18 26 rbox 2 0 18 26 adv 21
+sprite 104 name "h" box 411 964 18 26 rbox 2 0 18 26 adv 21
+sprite 105 name "i" box 433 964 18 26 rbox 2 0 18 26 adv 21
+sprite 106 name "j" box 455 964 18 26 rbox 2 0 18 26 adv 21
+sprite 107 name "k" box 477 964 18 26 rbox 2 0 18 26 adv 21
+sprite 108 name "l" box 499 964 18 26 rbox 2 0 18 26 adv 21
+sprite 109 name "m" box 521 964 18 26 rbox 2 0 18 26 adv 21
+sprite 110 name "n" box 543 964 18 26 rbox 2 0 18 26 adv 21
+sprite 111 name "o" box 565 964 18 26 rbox 2 0 18 26 adv 21
+sprite 112 name "p" box 587 964 18 26 rbox 2 0 18 26 adv 21
+sprite 113 name "q" box 609 964 18 26 rbox 2 0 18 26 adv 21
+sprite 114 name "r" box 631 964 18 26 rbox 2 0 18 26 adv 21
+sprite 115 name "s" box 653 964 18 26 rbox 2 0 18 26 adv 21
+sprite 116 name "t" box 675 964 18 26 rbox 2 0 18 26 adv 21
+sprite 117 name "u" box 697 964 18 26 rbox 2 0 18 26 adv 21
+sprite 118 name "v" box 719 964 18 26 rbox 2 0 18 26 adv 21
+sprite 119 name "w" box 741 964 18 26 rbox 2 0 18 26 adv 21
+sprite 120 name "x" box 763 964 18 26 rbox 2 0 18 26 adv 21
+sprite 121 name "y" box 785 964 18 26 rbox 2 0 18 26 adv 21
+sprite 122 name "z" box 807 964 18 26 rbox 2 0 18 26 adv 21
+sprite 123 name "{" box 829 964 9 26 rbox 6 0 9 26 adv 21
+sprite 124 name "|" box 842 964 5 26 rbox 8 0 5 26 adv 21
+sprite 125 name "}" box 851 964 9 26 rbox 6 0 9 26 adv 21
+sprite 126 name "~" box 864 985 18 5 rbox 2 0 18 5 adv 21

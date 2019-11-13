@@ -1,0 +1,183 @@
+//
+// sim object, sim terrain, collision
+//
+
+
+// atmospheric friction based on height
+// ground friction
+// engine efficiency based on height
+// lift based on height and speed
+
+// aatank, ground vehicle
+
+// missile, destruction by collision, explosians
+// explosions modify terrain
+// buildings, buildings destruction?
+
+// EXPLOSIONS!!!!
+// draw sky as rect, bg in black
+// enemy and shooting
+// drawing elipsis, rect, line, triangle
+//  fuel level
+//  mouse steering
+
+
+// VSYNC: prevents tearing -- https://www.khronos.org/opengl/wiki/Swap_Interval
+
+
+// vres independent of window res (2 options: dependent or fixed) when fixed than pixelization on resize
+// terr df down to 64?
+// aatank
+// artilerry
+// bridge-tank
+// eject, and enter another vehicle
+
+overlords
+	fighting miners revolt on some distant moon
+
+
+
+
+
+
+--------------------------- Resolution
+256x144  -- experimental
+
+min:
+ 640x360
+ 768x432
+ 960x540
+
+max:
+ 1366x768
+ 1920x1080
+ 2560x1440
+
+--------------------------- Title
+Moonzone Commando
+
+Attack Commando
+The H of Evil/Moon
+
+
+--------------------------- Design
+
+general constraints
+	terrain simulation vres:  x 100
+	window and fullscreen mode
+	ability to resize window
+	one terrain map
+	some kind of terrain modification on explosions
+	single color, distance field rendering of everything
+	tight architecture
+
+design
+	coordinate screen:   0-0 in left-bottom, x-y goes right-up
+	coordinate textures: 0-0 in left-top   , x-y goes right-down
+	virtual screen resolution: 160x100, xres depends on aspect ratio, yres is const
+	c with minimal abstractions (tight architecture)
+	minimal scons build system
+	OpenGL 3.0 ES
+	graphic pipeline: png+rc->ss
+	gui: terrain+bottom bar controls
+
+controls
+	thrust: mouse up/down   , arrow up/down   , W/S
+	angle:  mouse left/right, arrow left/right, A/D
+
+	turn: space
+	engine: e
+	eject: j
+	gear: g
+	fullscreen: F11, f
+	screenshoot: F12, g
+	hide controls:   F10
+	weapon 1: 1
+	weapon 2: 2
+	weapon 3: 3
+
+--------------------------- Progress/TODO
+
+display helo: engines+helo+thrust
+steer helo with keyboard
+
+display terrain
+scroll terrain when helo moves
+
+add gravity
+detect collision with terrain
+
+ability to exit helo
+display walkable chap
+
+fire missle form helo
+missle scan cone detecting heat signatures
+missle physics, AI
+
+
+
+Day N
+	collisions/ray-casting
+	graphics
+		terrain - 12 screens
+		chopper
+		tank
+		radar
+		building
+		transport heli
+		peple
+		landpad
+		control tower
+		parachute
+		aatower
+	text gui
+	gameplay
+		missile (heat seeking)
+		bomb
+		gun
+		landpad refill
+		flying
+		parachute
+		engine on/off
+		gear down/up
+		enter/exit vehicle
+		fuel level
+		wind affecting projectilas and movement
+	ground/water mechanics
+	procedural sound
+	ai
+		tank,people,choppers,aatower
+	missions
+
+
+Extra
+	build system
+	more advanced distance field - 256 grayscale to distance field
+	enter building?
+	radar pinging minimap?
+	2-chap mode -- fly 2-people crafts sharing keyboard and mouse
+	more crafts
+	merc mode -- select missions based on pay from both sides
+	vehicle:
+		tank/gun,aa,sam,heavy,light
+		infantry/rifle,grenade,sam,atm,sniper,explosives,mortar,chute
+		airplane
+		chopper
+
+	weapons:
+		aa missle (heat seeking)
+		at missle (heat seeking)
+		rockets (unguided)
+		rifle/gun
+		grenade
+		bomb
+		explosive
+
+	site,bunker/sam,gun,mg
+
+
+
+
+
+
+

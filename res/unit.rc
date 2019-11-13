@@ -1,0 +1,36 @@
+sheet -1 max_sprites 32
+sprite  0 name "vtol"           box 0.000 0.000 0.125 0.125 bea -15.0 -18.0 dim 32 32
+sprite  1 name "vtolengine"     box 0.125 0.000 0.125 0.125 bea -15.0 -17.0 dim 32 32
+sprite  2 name "missle"         box 0.250 0.000 0.125 0.125 bea -17.0 -17.0 dim 32 32
+sprite  3 name "misslethrust"   box 0.375 0.000 0.125 0.125 bea -16.0 -16.5 dim 32 32
+sprite  4 name "landingpad"     box 0.500 0.000 0.125 0.125 bea -18.0 -21.0 dim 32 32
+sprite  5 name "radarbase"      box 0.625 0.000 0.125 0.125 bea -18.0 -23.5 dim 32 32
+sprite  6 name "radardisk"      box 0.750 0.000 0.125 0.125 bea -13.0 -15.0 dim 32 32
+sprite  7 name "bullet"         box 0.875 0.000 0.125 0.125 bea -14.5 -17.5 dim 32 32
+
+sprite  8 name "vtolthrust"     box 0.000 0.125 0.125 0.125 bea -15.5 -15.5 dim 32 32
+sprite  9 name "vtolgun"        box 0.125 0.125 0.125 0.125 bea -14.5 -14.5 dim 32 32
+sprite 10 name "building"       box 0.250 0.125 0.125 0.250 bea -17.0 -46.0 dim 32 64
+sprite 11 name "buildingwindow" box 0.375 0.125 0.125 0.125 bea -18.5 -14.5 dim 32 32
+sprite 12 name "tower"          box 0.500 0.125 0.125 0.250 bea -16.5 -46.0 dim 32 64
+sprite 13 name "chap"           box 0.625 0.125 0.125 0.125 bea -14.0 -18.1 dim 32 32
+sprite 14 name "chapwalk"       box 0.750 0.125 0.125 0.125 bea -17.0 -18.2 dim 32 32
+sprite 15 name ""               box 0.875 0.125 0.125 0.125 bea  -0.0  -0.0 dim 32 32
+
+sprite 16 name "tank"           box 0.000 0.250 0.125 0.125 bea -16.5 -19.0 dim 32 32
+sprite 17 name "tankgun"        box 0.125 0.250 0.125 0.125 bea -16.5 -15.0 dim 32 32
+#sprite 18 name ""               box 0.250 0.250 0.125 0.125 bea  -0.0  -0.0 dim 32 32
+sprite 19 name ""               box 0.375 0.250 0.125 0.125 bea  -0.0  -0.0 dim 32 32
+#sprite 20 name ""               box 0.500 0.250 0.125 0.125 bea  -0.0  -0.0 dim 32 32
+sprite 21 name ""               box 0.625 0.250 0.125 0.125 bea  -0.0  -0.0 dim 32 32
+sprite 22 name ""               box 0.750 0.250 0.125 0.125 bea  -0.0  -0.0 dim 32 32
+sprite 23 name ""               box 0.875 0.250 0.125 0.125 bea  -0.0  -0.0 dim 32 32
+
+sprite 24 name "aatank"         box 0.000 0.375 0.125 0.125 bea -16.5 -19.0 dim 32 32
+sprite 25 name "aatankrail"     box 0.125 0.375 0.125 0.125 bea -17.5 -14.5 dim 32 32
+sprite 26 name "silo"           box 0.250 0.375 0.125 0.125 bea -18.0 -21.0 dim 32 32
+sprite 27 name "silodoor"       box 0.375 0.375 0.125 0.125 bea -17.5 -15.5 dim 32 32
+sprite 28 name "megabomb"       box 0.500 0.375 0.125 0.125 bea -16.0 -15.0 dim 32 32
+sprite 29 name ""               box 0.625 0.375 0.125 0.125 bea  -0.0  -0.0 dim 32 32
+sprite 30 name ""               box 0.750 0.375 0.125 0.125 bea  -0.0  -0.0 dim 32 32
+sprite 31 name ""               box 0.875 0.375 0.125 0.125 bea  -0.0  -0.0 dim 32 32

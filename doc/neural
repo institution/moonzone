@@ -1,0 +1,23 @@
+random init - only some subset is of weigths combination usefull
+if all weigth > 0 net will probably wont learn
+
+cross 0-problem - IT IS DIFFICULT FOR WEIGTH TO CROSS ZERO BOUNDARY (todo: verify)
+net needs +/- weigths in right positions to learn
++1/-1 random init should work if not weight collapse problem
+weight collapse - weigths have equal value and equal gradient
+zero collapse - some weigths are stuct at zero
+
+cross 0-problem possible solutions:
+	each weight have +/- components: w = w+ + w-
+
+zero collapse
+	w+ and w- cannot be zero?
+
+weight collapse possible solutions:
+	each weight have random learning speed parameter
+
+
+
+
+
+does is depend on problem or nn architecture?

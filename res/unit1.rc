@@ -1,0 +1,4 @@
+sheet -1 max_sprites 2
+sprite  0 name "vtol"           box 0.000 0.000 1.0 0.125 bea 0.0 0.0 dim 256 32
+sprite  1 name "vtolengine"     box 0.000 0.125 1.0 0.125 bea 0.0 0.0 dim 256 32
+
